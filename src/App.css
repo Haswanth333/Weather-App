@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: calc(100vh - 34px);
 }
 
 .App-logo {
@@ -11,6 +12,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.footer--pin {
+  position: relative !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .App-header {

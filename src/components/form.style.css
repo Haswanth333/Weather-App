@@ -21,3 +21,16 @@ form input,
 .container::-webkit-input-placeholder {
   color: white !important;
 }
+
+.footer--pin {
+  position: relative !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.icons {
+  margin: 10px;
+  color: whitesmoke;
+}

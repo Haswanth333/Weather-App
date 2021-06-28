@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Weather from "./components/Weather";
 import Form from "./components/Form";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 
@@ -110,6 +111,9 @@ class App extends React.Component {
           speed={this.state.speed}
           weatherIcon={this.state.icon}
         />
+        <footer className="footer--pin">
+          <Footer />
+        </footer>
       </div>
     );
   }
