@@ -11,7 +11,7 @@ const Weather =(props) => {
     }
 
     return (
-        <div className="container">
+        <div className="container pt-4">
             <div className="cards">
                 <h1>{props.city }, {props.country}</h1>
                 <h5 className="py-4">
