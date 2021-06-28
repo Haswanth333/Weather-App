@@ -17,8 +17,16 @@ form input:focus {
   box-shadow: none !important;
 }
 
+form input:hover {
+  border-bottom: 4px solid#fca503 !important;
+  transition: 0.8ms ease;
+  background-position: 0 100%;
+}
+form input:hover::before {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
 form input,
-.container::-webkit-input-placeholder {
+.form-container::-webkit-input-placeholder {
   color: white !important;
 }
 
@@ -33,4 +41,11 @@ form input,
 .icons {
   margin: 10px;
   color: whitesmoke;
+}
+.icons:hover {
+  color: #fca503;
+  transition: 0.6s;
+}
+.container {
+  height: 435px;
 }

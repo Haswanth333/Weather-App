@@ -100,6 +100,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h3>Weather 🌨 </h3>
         <Form loadweather={this.getWeather} error={this.state.error} />
         <Weather
           city={this.state.city}
@@ -111,7 +112,7 @@ class App extends React.Component {
           speed={this.state.speed}
           weatherIcon={this.state.icon}
         />
-        <footer className="footer--pin">
+        <footer className="footer">
           <Footer />
         </footer>
       </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './form.style.css'
 
 const Weather =(props) => {
     function minmaxTemp(min,max){

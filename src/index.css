@@ -8,13 +8,10 @@ body {
   background-image: url("./assets/dark3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  /* max-height: 100vh !important; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-Footer {
-  bottom: 0 !important;
 }
