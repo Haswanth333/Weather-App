@@ -13,8 +13,8 @@ const Weather =(props) => {
     }
 
     return (
-        <div className="container pt-4">
-            <div className="cards">
+        <div className="container text-light">
+            <div className="cards pt-4">
                 <h1>{props.city }</h1>
                 <h5 className="py-4">
                     <i className={`wi ${props.weatherIcon} display-1`}></i>
